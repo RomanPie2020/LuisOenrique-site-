@@ -89,7 +89,7 @@
     right: 0px;
     list-style: none;
     background: #fff;
-    width: 150px;
+    width: 200px;
     height: auto;
     text-align: center;
     display: none;
@@ -100,7 +100,8 @@
 .mobile_menu_link{
     text-decoration: none;
     color: #4d4d4d;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'Asap' , sans-serif;
     font-weight: 400;
 }
 .mobile_menu_links li{
