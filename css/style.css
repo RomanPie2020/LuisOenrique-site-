@@ -685,7 +685,8 @@ a:hover:after {
     }
     .sec1_subtitle{
         margin: 20px auto;
-        max-width: 70%;
+        max-width: 90%;
+
         
     }
     .sec1_img{
@@ -729,6 +730,14 @@ a:hover:after {
         display: block;
     }
 }
+@media (max-width: 625px){
+    .intro_img_{
+        max-width: 100%;
+    }
+    .sec1_img_{
+        max-width: 100%;
+    }
+}
 @media (max-width: 600px){
     .copyright{
         margin-left: 50px;
@@ -755,9 +764,31 @@ a:hover:after {
         text-align: center;
         margin: 0;
     }
+    .intro_title{
+        font-size: 70px;
+    }
+    .intro_subtitle{
+        font-size: 20px;
+    }
+    .intro_img{
+        margin-top: 30px;
+    }
+    .sec1_title{
+        font-size: 42px;
+    }
+    .portfolio_content_element_link img{
+        max-width: 100%;
+    }
+    
 }
-
-
+@media (max-width: 340px){
+    .intro_title{
+        font-size: 60px;
+    }
+    .intro_subtitle{
+        font-size: 18px;
+    }
+}
 
    
 
