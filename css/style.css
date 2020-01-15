@@ -11,12 +11,13 @@
     margin: 0 auto;
     padding: 0 10px;
     width: 100%;
+    position: relative;
 }
 /* header */
 .header{
     background: url(/img/bgheader.jpg) center center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 .logo-nav{
     display: flex;
@@ -614,8 +615,8 @@ a:hover:after {
     width: 45px;
     background: #fff url(/img/footer_btn_up_icon.png) no-repeat center center;
     position: absolute;
-    top: 550px;
-    right: 30px;
+    bottom: 140px;
+    right: 10px;
    
 }
 .footer_btn_up:before{
@@ -707,9 +708,7 @@ a:hover:after {
     .copyright{
         margin-left: 150px;
     }
-    .footer_btn_up{
-        top: 600px;
-    }
+    
     .myskills{
         height: auto;
         
@@ -728,13 +727,6 @@ a:hover:after {
     }
     /* my skills  */
 
-    .nav{
-        display: none;
-    }
-    
-    .mobile_menu{
-        display: block;
-    }
     .myskills_title{
         padding-top: 70px;
     }
@@ -742,6 +734,15 @@ a:hover:after {
         padding-top: 100px;
     }
 }
+@media (max-width: 660px){
+    .nav{
+        display: none;
+    }
+        
+    .mobile_menu{
+        display: block;
+    }
+}    
 @media (max-width: 625px){
     .intro_img_{
         max-width: 100%;
@@ -788,9 +789,7 @@ a:hover:after {
     .footer_title{
         padding-top: 80px;
     }   
-    .footer_btn_up{
-        top: 540px;
-    } 
+   
     .services{
         height: auto;
     }
@@ -830,6 +829,9 @@ a:hover:after {
         text-align: center;
         margin: 0;
     }
+    .footer_btn_up{
+        bottom: 160px;
+    }
     
    
 }
@@ -862,9 +864,7 @@ a:hover:after {
     .footer_title{
         padding-top: 70px;
     }
-    .footer_btn_up{
-        top: 530px;
-    }
+  
     .portfolio_title{
         padding-top: 70px;
     }
