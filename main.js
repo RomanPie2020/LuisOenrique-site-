@@ -9,3 +9,9 @@ $(document).ready(function () {
         return false;
     });
 });
+// testimonials slider 
+$(document).ready(function () {
+    $('.single-item').slick({
+    
+    });
+});

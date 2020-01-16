@@ -408,7 +408,7 @@ a:hover:after {
     text-align: center;
     padding-top: 150px;
     letter-spacing: 6px;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 .testimonials_title span{
     position: relative;
@@ -422,11 +422,48 @@ a:hover:after {
     height: 4px;
     background-color: #6f6f6f;
 }
-
+/* testimonials_slider */
 .testimonials_slider{
-    height: 710px;
+    max-width: 955px;
+    border: #212121 1px solid;
+    max-height: 350px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
   
 }
+.testimonial_content{
+    margin-left: 30px;
+    margin-top: 85px;
+    
+}
+.testimonials_slider_img{
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-bottom: 105px;
+}
+.testimonials_name{
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    
+    
+}
+.testimonials_company{
+    font-size: 12px;
+    font-family: 'Asap', sans-serif;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.testimonials_text{
+    font-size: 16px;
+    font-family: "Asap", sans-serif;
+    color: rgba(33, 33, 33, 0.6);
+    text-transform: uppercase;
+    line-height: 1.625;
+    margin-right: 70px;
+}
+/* testimonials_statistics */
 .testimonials_statistics_bg{
     background-color: #f6f6f6 ;
 }
