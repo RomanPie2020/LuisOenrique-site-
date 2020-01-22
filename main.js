@@ -11,7 +11,9 @@ $(document).ready(function () {
 });
 // testimonials slider 
 $(document).ready(function () {
-    $('.single-item').slick({
-    
+    $('.single_item').slick({
+        arrows: false,
+        autoplay: true,
+        dots: true,
     });
 });
