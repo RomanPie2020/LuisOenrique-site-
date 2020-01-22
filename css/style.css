@@ -440,18 +440,25 @@ a:hover:after {
     margin-top: 30px;
    
 }
+
 .slide{
     display: flex;
+    
     
    
     
   
 }
 .slide_container{
+    
+}
+.slick-slide{
+    outline: none;
+   
 }
 
-/* доробити слайдер 
-щоб картинка нормально відображалася */
+
+
 
 
 
