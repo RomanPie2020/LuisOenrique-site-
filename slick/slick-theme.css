@@ -114,15 +114,14 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
-{
-    margin-bottom: 30px;
+.slick-dotted.slick-slider{
+    
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: -60px;
+    bottom: -70px;
 
     display: block;
 
@@ -200,4 +199,27 @@
 }
 .slick-dots li.slick-active button:before{
    background: #000;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .testimonials_slider_container{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 920px){
+    .slick-slide{
+        margin: 80px 20px 0 120px;
+    }
+}
+@media screen and (max-width: 900px){
+    .slick-slide{
+        margin: 80px 20px 0 100px;
+    }
+}
+@media screen and (max-width: 840px){
+    .slick-slide{
+        margin: 80px 20px 0 100px;
+    }
 }
