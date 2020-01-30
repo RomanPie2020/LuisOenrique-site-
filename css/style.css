@@ -436,11 +436,7 @@ a:hover:after {
     
 }
 
-.testimonials_slider{
-    
-   
-   
-}
+
 
 .slide{
     display: flex;
@@ -451,9 +447,7 @@ a:hover:after {
     
   
 }
-.slide_container{
-    
-}
+
 .slick-slide{
     outline: none;
     margin: 80px 75px 0 120px;
