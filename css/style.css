@@ -788,6 +788,11 @@ a:hover:after {
         margin-bottom: 50px;
     }
 }
+@media (max-width: 860px){
+    .footer_btn_up{
+        display: none;
+    }
+}
 @media (max-width: 800px){
     /* say hello */
     .sayHello_form_email{
@@ -805,7 +810,7 @@ a:hover:after {
         padding-top: 100px;
     }
 }
-@media (max-width: 660px){
+@media (max-width: 700px){
     .nav{
         display: none;
     }
@@ -900,9 +905,7 @@ a:hover:after {
         text-align: center;
         margin: 0;
     }
-    .footer_btn_up{
-        bottom: 160px;
-    }
+   
     
    
 }
