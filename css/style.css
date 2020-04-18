@@ -15,7 +15,7 @@
 }
 /* header */
 .header{
-    background: url(/img/bgheader.jpg) center center no-repeat;
+    background: url(img/bgheader.jpg) center center no-repeat;
     background-size: cover;
     height: auto;
 }
