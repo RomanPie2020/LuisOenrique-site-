@@ -15,7 +15,7 @@
 }
 /* header */
 .header{
-    background: url(/img/bgheader.jpg) center center no-repeat;
+    background: url(../img/bgheader.jpg) center center no-repeat;
     background-size: cover;
     height: auto;
 }
@@ -381,7 +381,7 @@
     left: 150px; 
     right: 155px; 
     bottom: 130px;
-    background: #fff url(/img/portfoliolinkicon.png)  no-repeat center center;
+    background: #fff url(../img/portfoliolinkicon.png)  no-repeat center center;
     opacity: 0; 
     z-index: 2; 
 }
@@ -551,7 +551,7 @@ a:hover:after {
 
 /* Footer */
 .footer{
-    background: url(/img/footerbg.jpg) no-repeat;
+    background: url(../img/footerbg.jpg) no-repeat;
     position: relative;
     background-size: cover;
     
@@ -695,7 +695,7 @@ a:hover:after {
 .footer_btn_up{
     height: 40px;
     width: 45px;
-    background: #fff url(/img/footer_btn_up_icon.png) no-repeat center center;
+    background: #fff url(../img/footer_btn_up_icon.png) no-repeat center center;
     position: absolute;
     bottom: 140px;
     right: 10px;
