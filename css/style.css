@@ -15,7 +15,7 @@
 }
 /* header */
 .header{
-    background: url(img/bgheader.jpg) center center no-repeat;
+    background: url(/img/bgheader.jpg) center center no-repeat;
     background-size: cover;
     height: auto;
 }
@@ -551,7 +551,7 @@ a:hover:after {
 
 /* Footer */
 .footer{
-    background: url(/img/footerbg.jpg) no-repeat ;
+    background: url(/img/footerbg.jpg) no-repeat;
     position: relative;
     background-size: cover;
     
