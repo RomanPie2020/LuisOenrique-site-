@@ -7,8 +7,8 @@ let e = document.querySelectorAll('.mobile_menu_link')[2];
 let f = document.querySelectorAll('.mobile_menu_link')[3];
 let g = document.querySelectorAll('.mobile_menu_link')[4];
 $(document).ready(function () {
-    a.click(function (event) {
-        b.toggleClass('active');
+    $('.burger').click(function (event) {
+        $('.mobile_menu').toggleClass('active');
         
         
     });
