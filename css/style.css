@@ -112,7 +112,9 @@
     
    
 }
-
+.mobile_menu.active{
+    display: flex;
+}
 .mobile_menu_link{
     height: 20%;
     text-decoration: none;
