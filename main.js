@@ -8,11 +8,11 @@ let f = document.querySelectorAll('.mobile_menu_link')[3];
 let g = document.querySelectorAll('.mobile_menu_link')[4];
 a.onclick = function () {
     
-    if (b.style.display == "none") {
-        b.style.display = "flex";
+    if (b.style.display == "flex";) {
+        b.style.display = "none"
     }
     else{
-        b.style.display = "none";
+         b.style.display = "flex";
     }
 }
 c.onclick = function () {
