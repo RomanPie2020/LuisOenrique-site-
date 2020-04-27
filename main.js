@@ -40,3 +40,11 @@ g.onclick = function () {
     b.style.display = "none";
 
 }
+// testimonials slider 
+$(document).ready(function () {
+    $('.single_item').slick({
+        arrows: false,
+        autoplay: true,
+        dots: true,
+    });
+});
